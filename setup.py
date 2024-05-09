@@ -1,9 +1,10 @@
-from distutils.core import setup
-setup(name='drawing',
-      version='1.0',
-      description='Drawing Distribution Package',
-      author='Your Name',
-      author_email='Your Email',
-      url='The URL project - github for example',
-      packages=['drawing'],
-     )
+import os
+
+from setuptools import setup, find_packages
+setup(
+    name="ateste",
+    version="0.1",
+    description="Drawing Distribution Package",
+    packages=find_packages(),
+    include_package_data=True
+)
